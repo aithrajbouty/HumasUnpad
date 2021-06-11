@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Humas Unpad</string>
+    <string name="app_subname">Fakultas Ilmu Komunikasi Unpad</string>
+    <string name="alamat">Gedung III Lt I ,Fakultas Ilmu Komunikasi Universitas Padjadjaran, Jl. Raya Bandung Sumedang KM 21, Jatinangor 45363</string>
+    <string name="no_telp">(022) 7796954</string>
+    <string name="fax">(022) 7794122</string>
+    <string name="email">kaprodi.humas.fikom@unpad.ac.id</string>
+    <string name="string_lulusan">
+        Berdasarkan tujuan Program Studi, maka jelaslah bahwa pendidikan Ilmu Jurnalistik yang dimaksud di sini ingin membangun sumber daya yang professional dan membawa dunia jurnalistik menjadi sebuah profesi yang memiliki standar tinggi. Sama halnya dengan profesi lain yang diakui di masyarakat, maka tenaga profesional Jurnalistik dituntut memiliki standar pengetahuan dan kemampuan atau yang lazim disebut standar kualifikasi kompetensi.\n\n
+        Dalam menentukan standar kompetensi, Program Studi Jurnalistik Fikom Unpad yang selama ini menyelenggarakan pendidikan Ilmu Jurnalistik tidak menentukan sendiri. Agar standar tersebut applicable maka perlu dibangun hubungan yang baik dengan para pengguna lulusan pendidikan Ilmu Jurnalistik atau pada stake-holder (pihak-pihak yang berkepentingan). Setelah adanya hubungan yang baik, prodi kemudian melakukan dengar pendapat untuk meminta pertimbangan tentang standar kualifikasi yang dibutuhkan di dunia kerja dan di masayarakat. Usulan dan aspirasi dari stake-holders inilah yang selanjutnya menjadi alasan program studi serta menyusun visi dan misinya.\n\n
+        Dari hasil dengar pendapat dengan stake-holder dan masyarakat, prodi jurnalistik menentukan ciri-ciri profesi jurnalistik sebagai berikut:\n\n
+        1. Menjalankan pekerjaan berdasarkan pengetahuan khusus (specialized knowledge) dan keterampilan (skill)\n
+        2. Terorganisir dalam organisasi profesi\n
+        3. Memiliki kode etik (code of ethics) profesi\n
+        4. Memiliki kewenangan untuk mengatur dirinya sendiri (professional authority)\n
+        5. Memiliki hak yang dilindungi hukum\n
+        6. Memerlukan sistem kedisiplinan\n
+        7. Memerlukan kesadaran bertanggung jawab atas penerapan pengetahuan dan keterampilan\n\n
+        Berdasarkan ciri-ciri profesi tersebut, prodi jurnalistik menentukan kualifikasi kompetensi yang harus dimiliki lulusan prodi jurnalistik yaitu:\n\n
+        1. Pengetahuan Khusus (specialized knowledge)\n
+        <li>Journalism knowledge (pengetahuan jurnalistik) meliputi pengetahuan dasar ilmu komunikasi (termasuk filsafat, logika, dan bahasa), pengetahuan dasar jurnalistik, sampai dengan pengetahuan jurnalistik tingkat lanjut (advance).</li>\n
+        <li>Social research knowledge (pengetahuan tentang konsep penelitian sosial), meliputi pengetahuan tentang metode-metode penelitian serta teknik analisis yang berguna untuk mencari dan mengolah data di lapangan.</li>\n
+        <li>Relevant knowledge (pengetahuan pendukung yang relevan), meliputi ilmu hukum, ekonomi, politik, psikologi, bahkan bila perlu ilmu-ilmu eksakta.</li>\n
+        2.Skill\n
+        <li>Keterampilan manajerial</li>\n
+        <li>Keterampilan praktis, yang tediri dari:</li>\n
+        \t- Nose of news\n
+	    \t- News gathering\n
+	    \t- News writing (writing, editing, mixing)\n
+	    \t- News presenting\n
+	    \t- News evaluating\n\n
+        Sepuluh Karakter yang harus dimiliki wartawan lulusan pendidikan Ilmu Jurnalistik:\n
+        1. Has idealism (memiliki idealism kuat, tidak terbawa arus lingkungan)\n
+        2. Obeys norms &amp; ethics (mematuhi norma dan etika profesi di tempat ia berada)\n
+        3. Has standards (memiliki standar, tidak bekerja hanya sekedar menggugurkan kewajiban)\n
+        4. Critical &amp; skeptic (kritis dan skeptic, tidak mudah percaya dan terus menanyakan apa yang belum diklarifikasi)\n
+        5. Honest (jujur pada diri sendiri dan public, menggunakan hati nurani)\n
+        6. Has curiosity (memiliki keingintahuan tinggi)\n
+        7. Courageous (berani menerima tantangan dan mencoba mengambil resiko)\n
+        8. Discipline &amp; obeys rules (disiplin dan mematuhi aturan profesi)\n
+        9. Has guts but polite (memiliki keberanian namun tetap bersikap menyenangkan)\n
+        10. Open minded (berpikiran terbuka dan siap menerima segala kemungkinan dengan objektif)\n
+    </string>
+    <string name="string_jurnal">
+        Profesi Humas : Jurnal Ilmiah Ilmu Hubungan Masyarakat published by LP3 Fakultas Ilmu Komunikasi, Universitas Padjadjaran. ISSN 2528-6927 (printed), ISSN 2541-3678 (Online). Profesi Humas publish selected paper under a Creative Commons Attribution-ShareAlike 4.0 International License. And, every article is free of charge for authors and readers. Published twice a year (August and February). Profesi Humas provided an open access to publics for reading abstract and full papers. Profesi Humas focused on Public Relations studies. Each edition, Profesi Humas received manuscripts that had focus on the following issues below with interdisciplinary and multidisciplinary approach, i.e:\n\n
+        <li>Political Public Relations. Management process by which an organization or individual actor for political purposes, through purposeful communication and action, seeks to influence and to establish, build, and maintain beneficial relationships and reputations with its key publics to help support its mission and achieve its goals.</li>\n
+        <li>Public Relations Management. Strategic communication process that builds mutually beneficial relationships between organizations and their publics.” The practice of managing communication between an organization and its publics</li>\n
+        <li>Public Relations Crisis. Crisis communication is a sub-specialty of the public relations profession that is designed to protect and defend an individual, company, or organization facing a public challenge to its reputation.</li>\n
+        <li>Public Relations and Publics. The use of communication channels to manage public perception of an individual or an organization.</li>\n
+        <li>Public Relations Audit. An internal process whereby company leaders, often in collaboration with a PR firm, review opportunities to communicate and potential threats to the organization’s reputation.</li>\n
+        <li>Marketing Public Relations. The use of two important business functions, marketing and PR, to generate awareness and positive responses to products, services and businesses. Marketing PR has developed due to increased saturation of markets and the difficulties this creates in reaching customers.</li>\n
+        <li>Corporate Social Responsibility (CSR). A business approach that contributes to sustainable development by delivering economic, social and environmental benefits for all stakeholders. CSR is a concept with many definitions and practices.</li>\n
+        <li>Human Relations. Relations with or between people, particularly the treatment of people in a professional context.</li>\n\n
+        Every article that goes to the chief editorial will be send to section editor through Initial Review processes. Then, the articles will be sent to the peer reviewers to get Blind Review Process. Then, the articles will be returned to the authors to revise. These processes take 2 months for a maximum time. In the each manuscript, peer reviewer will be rated from the substantial and technical aspects. The peer reviews have expertise in Political Public Relations, Public Relations Management, Public Relations Crisis, Public Relations and Publics, Public Relations Audit, Marketing Public Relations, Corporate Social Responsibility (CSR), and Human Relations. They were also experienced in the prestigious journal management and publication that was spread around the national and abroad.
+    </string>
+    <string name="string_lab_radio">
+        Laboratorium Radio dilengkapi dengan sarana dan prasarana untuk produksi siaran radio antara lain studio siaran, mixer PVC, equalizer, audio amplifier, compressor, komputer, dan pemutar CD audio. Laboratorium radio memberikan kesempatan kepada mahasiswa untuk memperoleh kemampuan teknis sebagai berikut:\n\n
+        <li>Menguasai teknis pengolahan audio di radio siaran</li>\n
+        <li>Mengusai teknik produksi siaran radio</li>\n
+        <li>Menguasai teknis siaran dann reportase untuk sairan radio</li>\n
+        <li>Menguasai manajemen produksi siaran radio</li>
+    </string>
+    <string name="string_lab_tv">
+        Laboratorium Televisi merupakan sarana penunjang sejumlah mata kuliah yang berkaitan dengan televisi, diantaranya mata kuliah:\n\n
+        <li>Produksi Televisi Siaran</li>\n
+        <li>Produksi Jurnalisme televisi</li>\n
+        <li>Penulisan Berita Televisi</li>\n
+        <li>Dll</li>\n\n
+        Laboratorium ini terdiri dari empat ruangan : studio produksi, studio news, ruang kontrol, dan gudang penyimpanan alat. Laboratorium menyediakan peralatan-peralatan yang dibutuhkan untuk penyiaran televisi dengan lengkap, seperti berbagai jenis kamera: Handycam, Kamera VHS, Kamera S-VHS, Kamera MiniDV Semi Profesioanal; Mixer/Switcher Video, monitor televisi, komputer PC, komputer edit, lampu tata cahaya, background studio, setting dan properti.\n\n
+        Laboratorium Televisi memberikan kesempatan kepada mahasiswa untuk memperoleh kemampuan praktis sebagai berikut:\n\n
+        <li>Menguasai teknik penggunan kamera Video dan TV</li>\n
+        <li>Menguasai teknik produksi siaran TV termasuk membuat setting dan tatacara studio TV</li>\n
+        <li>Menguasai teknik siaran dan reportase untuk acara TV</li>\n
+        <li>Menguasai teknik live production dan teknik editing untuk siaran TV</li>
+    </string>
+    <string name="string_lab_news">
+        Laboratorium Media &amp; News Room adalah salah satu laboratorium penunjang kegiatan civitas akademika yang terletak di lantai 1 gedung Pascasarjana Fikom Unpad. Ruangan ini difokuskan pada kegiatan berbasis online dan menjadi simulasi ruang redaksi pada bidang jurnalistik. Selain itu, fasilitasnya juga digunakan sebagai sarana pelatihan penggunaan internet dan microsoft office dalam program pengabdian masyarakat.\n\n
+        Laboratorium ini untuk menunjang sejumlah mata kuliah di Departemen Jurmalistik, diantaranya:\n\n
+        <li>Penulisan Berita Media Cetak</li>\n
+        <li>Penulisan Karangan Khas</li>\n
+        <li>Penulisan berita mendalam</li>\n
+        <li>Reportase</li>\n
+        <li>Jurnalisme Radio</li>\n
+        <li>Jurnalisme Televisi</li>\n
+        <li>Dll</li>\n\n
+        Laboratorium memiliki 20 unit personal computer (PC), 2 komputer produksi, 3 TV, LCD, dan wifi. Untuk peralatan reportase disediakan 3 recorder, 3 kamera DSLR, 4 laptop, 3 clip on, 3 tripod, mixer audio visual, dan 3 tas ransel untuk membawa peralatan reportase.
+    </string>
+    <string name="string_lab_perpus">
+        Fasilitas yang saat ini dimilki oleh laboratorium perpustakaan Fikom diantaranya:\n\n
+        <li>Penelusuran Online Public Access Catalog</li>\n
+        <li>Sistem Informasi Perpustakaan Berbasis Online</li>\n
+        <li>Digital Library (e-content) dan Jurnal Elektronik Proquest</li>\n
+        <li>Portal Perpustakaan</li>\n
+        <li>Jaringan Internet dan hotspot area</li>\n
+        <li>Peralatan Multimedia (TV,audio palyer, LCD proyektor, OHP, Screen)</li>\n
+        <li>Ruang Rapat dan diskusi</li>\n
+        <li>Ruang Pelatihan Softskill</li>\n
+        <li>Locker</li>\n
+        <li>Library Corner</li>\n\n
+        Laboratorium memiliki 20 unit personal computer (PC), 2 komputer produksi, 3 TV, LCD, dan wifi. Untuk peralatan reportase disediakan 3 recorder, 3 kamera DSLR, 4 laptop, 3 clip on, 3 tripod, mixer audio visual, dan 3 tas ransel untuk membawa peralatan reportase.
+    </string>
+    <string name="string_lab_cmc">
+        Menjadi laboratorium unggul dalam pengembangan ilmu pengetahuan di bidang komunikasi bermedia komputer (computer mediated communication) atau human-computer interaction.\n\n
+        Adapun misinya adalah 1) Mendukung kegiatan tri darma perguruan tinggi di bidang teknologi informasi dan komunikasi. 2)Mengembangkan ilmu pengetahuan dan teknologi bidang computer mediated communication, human-computer interaction dan digital literacy.3)Meningkatkan kontribusi dan kerja sama dengan berbagai pihak dengan mengembangkan produk hasil inovasi dan kreasi bidang CMC/HCI dan digital literacy.\n\n
+        Fasilitas yang dimiliki mencakup 40 unit komputer dengan fasilitas multimedia, yang terhubungkan dengan LAN serta jarimgan internet (dalam proses). Laboratorium dilengkapi dengan program-program, yang selalu diperbarui untuk kebutuhan praktek seperti Microsoft Office, Adobe Photoshop, Adobe Pagemaker, Corel Draw, Front Page dan Macromedia Flash. Adapun program kerja Laboratorium CMC adalah sebgai berikut:\n\n
+        <li>Memfasilitasi kegiatan praktikum pada matakuliah-matakuliah yang memerlukan fasilitas praktikum berupa komputer dan internet</li>\n
+        <li>Menjadi laboratorium pembuatan media pembelajaran interaktif (multimedia)</li>\n
+        <li>Menyediakan akses e-learning</li>\n
+        <li>Memfasilitasi kegiatan penelitian dan pengabdian kepada masyarakat bagi dosen-dosen yang memerlukan fasilitas komputer dan internet</li>\n
+        <li>Memfasilitasi kegiatan-kegiatan lain dari sivitas akademika Fikom yang memerlukan Lab CMC</li>\n
+        <li>Mengadakan pelatihan-pelatihan yang berkaitan dengan CMC/HCI dan digital literacy</li>\n\n
+        Laboratorium memiliki 20 unit personal computer (PC), 2 komputer produksi, 3 TV, LCD, dan wifi. Untuk peralatan reportase disediakan 3 recorder, 3 kamera DSLR, 4 laptop, 3 clip on, 3 tripod, mixer audio visual, dan 3 tas ransel untuk membawa peralatan reportase.
+    </string>
+    <string name="string_lab_humas">
+        Laboratorium dimasudkan untuk membantu proses pembelajaran di Program Studi Hubungan Masyarakat. Di Prodi ini terdapat sejumlah mata kuliah yang bersifat praktis yang wajib dikuasai oleh para calon sarjana public relations. Mata kuliah yang terkait dengan laboratorium ini adalah:\n\n
+        <li>Public Relations Event</li>\n
+        <li>Penerbitan Humas</li>\n
+        <li>Menyediakan akses e-learning</li>\n
+        <li>PR Writing</li>\n
+        <li>Komunikasi Visual</li>\n
+        <li>Media Relations</li>\n
+        <li>Dll</li>
+    </string>
+    <string name="string_lab_grafika">
+        Laboratorium ini memiliki perlatan yang cukup memadai untuk menunjang kegiatan desain grafis dan produksi cetak, yaitu studio desain yang terdiri dari 36 unit komputer desain dan editing, plotter, Scanner, serta meja gambar manual; peralatan produksi seperti mesin cetak mini offset, mesin hand press,  mesin potong kertas, plate maker, dan studio sablon.\n\n
+        Laboratorium grafika memberikan kesempatan kepada mahasiswa untuk memperoleh kemampuan praktis sebgai berikut:\n\n
+        <li>Mampu merencana/mendesain media komunikasi visual/grafis dengan berbagai teknik baik manual maupun teknik komputer</li>\n
+        <li>Mampu memproduksi media komunikasi visula/grafis dalam berbagai bentuk seperti poster, brochure, majalah, surat kabar spanduk, baliho, x-banner dan lain-lain, baik dengan teknik sablon maupun dengan teknik cetak</li>
+    </string>
+    <string name="string_tujuan_sikap">
+        1. Bertaqwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius;\n
+        2. Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika;\n
+        3. Berkontribusi dalam peningkatan mutu kehidupan bermasayarakat, berbangsa, benrnegara, dan kemajuan peradaban berdasarkan Pancasila;\n
+        4. Berperan sebagai warga negara yang bangga dan cinta tanah air, memeiliki nasionalisme dan rasa tanggungjawab pada negara dan bangsa;\n
+        5. Menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain;\n
+        6. Bekerjasama dan memiliki kepekaan sosial serta kepeduliaan terhadap masyarakat dan lingkungan;\n
+        7. Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara;\n
+        8. Menginternalisasi nilai, norma, dan etika akademik;\n
+        9. Menunjukkan sikap bertanggungjawab atas pekerjaan di bidang keahliannya secara mandiri;\n
+        10. Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan;\n
+        11. Menjalankan tugas dengan penuh tanggungjawab dengan menghasilkan karya kehumasan yang tidak memberikan dampak yang dapat menimbulkan keresahan khalayak, karena bertentangan dengan norma hukum, norma sosial, dan etika yang berlaku.\n
+        12. Mengkolaborasikan semangat multidisiplin dan berinteraksi dengan masyarakat
+    </string>
+    <string name="string_tujuan_pengetahuan">
+        1. Konsep teoritis teori excellence, persuasi, komunikasi massa, komunikasi public, dan relationship;\n
+        2. Model-model hubungan masyarakat;\n
+        3. Pengetahuan kontekstual tentang posisi, fungsi dan praktik humas dalam berbagai setting organisasi baik pemerintah, swasta, atau lembaga swadaya masyarakat;\n
+        4. Etika dalam membangun dan melestarikan hubungan masyarakat dan nilai-nilai kemanuasiaan (humanity values);\n
+        5. Kaidah, prinsip, dan Teknik komunikasi lintas fungsi, level organisasi dan budaya;\n
+        6. Prinsip dan isu terkini dalam ekonomi, politik, social, ekologi, perkembangan teknologi terbaru dan terkini secara umum;\n
+        7. Prinsip dan Teknik komunikasi menggunakan teknologi terbaru dan terkini.
+    </string>
+    <string name="string_tujuan_khusus">
+        1. Mampu mendesain, melaksanakan dan mengevaluasi program hubungan masyarakat dalam berbagai bentuk pada berbagai jenjang organisasi;\n
+        2. Mampu menciptakan pengertian public yang lebih baik dan pencitraan yang tidak memberikan dampak yang dapat menimbulkan keresahan khalayak, karena bertentangan dengan norma hukum, norma sosial, dan etika yang berlaku, dalam upaya memperdalam kepercayaan publik terhadap suatu individu/organisasi melalu riset opini publik dan kampanye terbatas;\n
+        3. Mampu mengelola media, menulis siaran pers dan program komunikasi kehumasan internal dan eksternal organisasi;\n
+        4. Mampu membangun hubungan dengan komunitas, media, pemerintah, swasta, dan lembaga swadaya masyarakat dengan menggunakan keterampilan komunikasi dan memanfaatkan teknologi komunikasi terbaru dan terkini;\n
+        5. Mampu mengidentifikasi, menganalisis isu-isu terkini yang strategis, dan menyusun alternative solusi di bidang kehumasan.
+    </string>
+    <string name="string_tujuan_umum">
+        1. Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan dan menerapkan nilai humaniora yang sesuai dengan bidang keahliannya;\n
+        2. Mampu menunjukkan kinerja mandiri, bermutu, dan terukur;\n
+        3. Mampu mengkaji implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan dan menerapkan nilai humaniora sesuai dengan keahliannya berdasarkan kaidah, tat acara dan etika ilmiah dalam rangka menghasilkan solusi, gagasan, desain atau kritik seni;\n
+        4. Mampu menyusun deskripsi saintifik hasil kajian tersebut di atas dalam bentuk skripsi atau laporan tugas akhir, dang mengunggahnya dalam laman perguruan tinggi;\n
+        5. Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya, berdasarkan hasil analisis informasi dan data;\n
+        6. Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, sejawat baik di dalam maupun di luar lembaganya;\n
+        7. Mampu bertanggungjawab atas pencapaian hasil kerja kelompok dan melakukan supervise serta evaluasi terhadap penyelesaian pekerjaan yang ditugaskan kepada pekerja yang berada di bawah tanggungjawabnya;\n
+        8. Mampu melakukan proses evaluasi diri terhadap kelompok kerja yang berada di bawah tanggungjawabnya, dan mampu mengelola pembelajaran secara mandiri;\n
+        9. Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi.\n
+        10. Mampu bertanggung jawab atas pekerjaan kelompok hasil kerja sama dan kolaburasi dengan sesame mahasiswa berbagai disiplin ilmu yang melibatkan masyarakat desa.\n
+        11. Mampu mengkoordinasikan beragam kegiatan di masyarakat desa melalui olah raga, kesenian dan kreativitas.
+    </string>
+    <string name="string_sejarah">
+        Perjalanan Fakultas Ilmu Komunikasi diawali dari pemikiran sekelompok tokoh pendiri yaitu Prof. Dr. Mr. R. Moestopo, Azhary Sulaiman, A.Z. Palindih, S. Rochnadi, dan R. Roekomy.  Pemikiran para tokoh pendiri membuahkan hasil yang sangat menggembirakan dengan keluarnya SK Ketua Yayasan Pembina Unpad pada tanggal 6 September 1960 tentang pembukaan Fakultas Jurnalistik dan Publisitik.Fakultas ini resmi dibuka  pada tanggal 18 September 1960 dengan dengan diangkatnya   Prof. Dr. Mr. R. Moestopo sebagai Dekan FakultasJurnalistik dan Publisitik. Sampai saat ini,tanggal 18 September ditetapkan sebagai hari lahirnya Fakultas Ilmu Komunikasi.\n\n
+        Setelah dibukanya Fakultas Jurnalistik dan Publisistik,  pada tanggal  8 Nopember 1960 secara resmi disampaikan kepada Menteri PTIP. Berdasarkan kepada pengajuan tersebut, maka  pada tanggal 1 Pebruari 1962 Fakultas ini menjadi Fakultas Publisistik dan Jurnalistik. Dengan berbagai  pertimbangan terutama pertimbangan akademis dan kebutuhan lulusan yang terserap di dunia kerja maka disusulkan perubahan nama Fakultas. Perubahan nama Fakultas resmi pada tanggal  23 April 1963 Fakultas Publisitik dan Jurnalistik menjadi  Fakultas Publisistik. Dengan nama baru ini pada tanggal 27 Pebruari tahun 1964 sarjana Fakultas Publisistik mendapatkan kesetaraan ijasah negeri.\n\n
+        Fakultas ini secara resmi bernaung dibawah Unpad berdasarkan SK Menteri PTIP No. 225 tertanggal 1 Nopember 1965 dimana terjadi perubahan bahwa InstitutPublisistik dengan lima jurusan, yakni:\n
+        <li>Jurnalistik</li>\n
+        <li>Penerangan/Propaganda</li>\n
+        <li>Public Relations</li>\n
+        <li>Graphic Arts/Photography</li>\n
+        <li>Telekomunikasi (Komunikasi Massa)</li>\n
+        Ketika menjadi salah satu Fakultas yang ada di lingkungan\n\n
+        Perubahan masih terus terjadi ketika orientasi Ilmu Komunikasi mengalami pergeseran dari Eropa khususnya Jerman ke Amerika dan ini dinyatakan dengan SK presiden RI No. 47 tahun 1982 tertanggal 7 September 1982 tentang susunan organisasi Unpad, dan Kepmendikbud RI No.133/O/1983 tanggal 5 Maret 1983 tentang organisasi dan tata kerja Unpad, bahwa Fakultas Publisistik diubah namanya menjadi Fakultas Ilmu Komunikasi. Fakultas Ilmu Komunikasi   ini memiliki empat jurusan :\n\n
+        <li>Jurusan Ilmu Jurnalistik</li>\n
+        <li>Jurusan Ilmu Hubungan Masyarakat</li>\n
+        <li>Jurusan Ilmu Penerangan</li>\n
+        <li>Jurusan Ilmu Informasi dan Perpustakaan</li>\n
+        <li>Telekomunikasi (Komunikasi Massa)</li>\n\n
+        Pada tahun 1994 berdasarkan SK Dikti tentang program studi, di Fakultas Ilmu Komunikasi hanya terdiri dari dua Program Studi yaitu Program Studi Ilmu Komunikasi dan Program Studi Ilmu Perpustakaan. Pada Program Studi Ilmu Komunikasi terdapat Bidang Kajian Jurnalistik, Hubungan masyarakat, dan Penerangan. Pada tahun 1997 nama bidang kajian Penerangan berganti nama menjadi Bidang Kajian Manajemen Komunikasi.\n\n
+        Perkembangan Fakultas kesebelas di Unpad ini terjadi dengan pesat sejalan dengan era informasi yang tidak terbendung, sehingga untuk memenuhi permintaan berbagai pihak melalui SK No. 65/DIKTI/Kep/1999 pada tahun 1999 Fikom membuka program Diploma III PAKT dengan Peminatan Kehumasan, Penyiaran, Periklanan, dan Komunikasi Bisnisserta Informasi dan Perpustakaan. Selanjutnya melalui SK No. 184/DIKTI/Kep/1997 mulai tahun  akademik 1997/1998 Fikom membuka program Ekstensi dengan tujuan untuk memberikan kesempatan pada masyarakat untuk menempuh jenjang pendidikan yang lebih tinggi. Perjalanan selanjutnya dengan niat baik Fikom pun mengikuti perkembangan keilmuan dan permintaan pasar yang mengharuskan ilmu dan pengetahuan itu terus maju berkembang maka dibuka pula program pascasarjana baik jenjang magister maupun tingkat doktoral. Pada tahun2009 turun SK DIKTI Nomor 1162/D/T/2009 tanggal 15 Juli 2009 tentang izin penyelenggaran pendidikan Magister (S2).\n\n
+        Usaha untuk memenuhi kebutuhan masyarakat dan tuntutan perkembangan ilmu dan teknologi komunikasi, Fakultas Ilmu Komunikasi berusaha terus untuk meningkatkan Status Bidang Kajian menjadi Program studi. Berkat perjuangan tersebut pada tahun 2013 turun SK DIKTI nomor 559/E/O/2013 tanggal 13 November 2013 tentang Izin penyelenggaran pendidikan Program Studi Hubungan Masyarakat. Bahkan pada tahun 2014 tiga SK DIKTI turun secara berurutan   1) SK DIKTI nomor 68/E/O/2014 tangal 7 Mei 2014 tentang Izin penyelenggaraan pendidikan Program Studi Manajemen Komunikasi, 2) SK DIKTI nomor 72/E/O/2014 tanggal 7 Mei 2014 tentang izin penyelenggaraan pendidikan Program Studi Jurnalistik, 3) SK DIKTI nomor 309/E/0/2014 tanggal 12 Agustus 2014 tentang Izin penyelenggaran pendidikan Program Studi Televisi dan Film.\n\n
+        Pada saat ini Fakultas Ilmu Komunikasi memiliki  9(Sembilan)program Studi yaitu:\n
+        <li>Program Studi D4 Manajemen Produksi Media</li>\n
+        <li>Program Studi S1 Ilmu Komunikasi</li>\n
+        <li>Program StudiS1 Ilmu Perpustakaan</li>\n
+        <li>Program StudiS1 Hubungan Masyarakat</li>\n
+        <li>Program Studi S1 Manajemen Komunikasi</li>\n
+        <li>Program Studi S1 Jurnalistik</li>\n
+        <li>Program Studi S1 Televisi dan Film</li>\n
+        <li>Program StudiMagister Ilmu Komunikasi</li>\n
+        <li>Program Studi Doktor Ilmu Komunikasi</li>\n\n
+        Untuk mendukung kelancaran proses pendidikan, Fakultas Ilmu Komunikasi  memiliki 7 gedung dilokasi kampus Jatinangor. Gedung 1 digunakan untuk ruang perkantoran, auditoriumdan dekanat. Gedung 2 digunakan untuk kegiatan perkuliahan serta laboratorium, Gedung 3 digunakan untuk ruang kantor jurusan, ruang sidang bersamaserta laboratorium, Gedung 4 digunakan untuk ruang perkantoran, ruang kuliah serta ruang auditorium, Gedung 5digunakan untuk ruang kuliah, gedung 6 digunakan untuk kegiatan kemahasiswaan, serta gedung 7 digunakan untuk ruang kantor, laboratorium, auditorium, perpustakaan danruang kuliah.
+    </string>
+    <string name="string_prospek">
+        Program Studi Jurnalistik ini mencetak sarjana jurnalistik yang dapat menjadi: Jurnalis media cetak, elektronik, online; Produser Konten Media; Periset Media; Fotografer; Pengajar jurnalistik; Konsultan/ analis media.
+    </string>
+    <string name="string_deskripsi">
+        Program Studi Hubungan Masyarakat (Humas) Unpad adalah program studi yang berperan sebagai pusat pengembangan ilmu dan profesi Humas yang handal dan profesional, untuk mendukung ketersediaan tenaga Humas untuk memenuhi kebnutuhan instansi, perusahaan, dan lembaga yang terkait. Berorientasi pada pemberdayaan masyarakat madani (civil society) di era globalisasi ini.
+    </string>
+    <string name="string_visi">
+        Menjadi Program Studi yang memiliki komitmen untuk mengembangkan ilmu Hubungan Masyarakat dan menjadi pusat studi Hubungan Masyarakat yang diakui di tingkat lokal, nasional, maupun internasional serta mampu beradaptasi terhadap perubahan di tingkat lokal, nasional, dan internasional di tahun 2026.
+    </string>
+    <string name="string_misi">
+        1. Mengembangkan pembelajaran bidang ilmu Hubungan Masyarakat yang bermutu serta mengikuti perkembangan jaman untuk menghasilkan lulusan yang memiliki kompetensi di bidang hubungan masyarakat.\n
+        2. Mengembangkan penelitian yang menitikberatkan pada isu-isu perkembangan hubungan masyarakat dalam lingkup lokal, nasional dan internasional.\n
+        3. Melaksanakan pengabdian kepada masyarakat guna menopang pembelajaran dan kemajuan ilmu pengetahuan, dan teknologi bagi komunitas akademik, pemerintah, industri dan masyarakat.\n
+        4. Mengembangkan manajemen pendidikan dengan menerapkan prinsip penjaminan mutu (quality assurance).\n
+        5. Menjalin hubungan kerjasama strategis dengan masyarakat, pemerintah, bisnis dan industri, institusi pendidikan, serta perguruan tinggi lain baik didalam negeri maupun luar negeri secara berkesinambungan dengan menerapkan prinsip kesetaraan, kemitraan dan saling percaya.
+    </string>
+</resources>

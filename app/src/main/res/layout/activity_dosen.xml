@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DosenActivity">
+<include
+    android:id="@+id/toolbar_dosen"
+    layout="@layout/submenutoolbar"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar_dosen"
+    android:layout_above="@id/horizontalScrollView"
+    android:paddingHorizontal="25dp"
+    android:paddingTop="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen1"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Dr. Feliza Zubair, M.Si"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen1"
+                        android:layout_centerHorizontal="true"
+                        android:text="CSR"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textSize="12dp"
+                        android:textColor="?colorPrimaryVariant"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen2"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Dr. Hj. Hanny Hafiar, M.Si"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen2"
+                        android:layout_centerHorizontal="true"
+                        android:text="MEDIA"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textSize="12dp"
+                        android:textColor="?colorPrimaryVariant"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen3"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dr. H. Wawan Setiawan, M. I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen3"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Pembangunan Kependudukan dan KB"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen4"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen4"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Dr. Evi Novianti, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen4"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Communication Culture and Tourism"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen5"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dr. Hj. Susanne Dida, M.M"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen5"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Kesehatan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen6"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen6"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Dr. Suwandi Sumartias, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen6"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Humas Politik dan Hubungan Industrial"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen7"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen7"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dr. H. Iriana Bakti, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen7"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Lingkungan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen8"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen8"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen8"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Dr. Hj. Diah Fatma Sjoraida, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen8"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Politik"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen9"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen9"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen9"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dr. Agus Rahmat, M.Pd"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen9"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi dan CSR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen10"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen10"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen10"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Dr. Susie Perbawasari, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen10"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi dan Budaya Perusahaan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen11"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen11"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen11"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dr. Yustikasari, M.I.kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen11"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Public Relations"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen12"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen12"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen12"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Dr. Yanti Setianti, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen12"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Ilmu Hubungan Masyarakat"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen13"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen13"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen13"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Centurion C Priyatna, M.Si., Ph.D"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen13"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Digital Culture and PR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen14"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen14"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen14"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Heru Rianto Budiana, S.Ag., M.S"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen14"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Pemerintahan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen15"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen15"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen15"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Priyo Subekti, S.Sos., M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen15"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Social change and Community Development"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen16"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen16"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen16"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Aat Ruchiat Nugraha, S.Sos., M.S"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen16"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Public Relations and Social Communication"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen17"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen17"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen17"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Dra. Hj. Kokom Komariah, M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen17"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Organisasi"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen18"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen18"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen18"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Trie Damayanti, S.Sos., M.Si"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen18"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Branding"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen19"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen19"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen19"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Ade Kadarisman, S.Sos., M.T"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen19"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Komunikasi Pembangunan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen20"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen20"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen20"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="FX. Ari Agung Prastowo, S.Sos, M.I.kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen20"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="PR Politik"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen21"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen21"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen21"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Anwar Sani, S.Sos., M.I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen21"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Humas Pemerintahan"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen22"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen22"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen22"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Renata Anisa, S.Sos., M.M"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen22"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Digital PR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen23"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen23"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen23"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Syauqy Lukman, S.Sos., M.SM"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen23"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Media, Komunikasi Kependudukan dan Kajian Remaja"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen24"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen24"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen24"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Retasari, S.I.Kom., M.I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen24"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Branding"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen25"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen25"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen25"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Ahmad Taufiq Maulana Ramdan, S.I.Kom., M.I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen25"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Branding"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen26"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen26"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen26"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="Achwan Noorlistyo Adi, S.I.Kom., M.I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen26"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Digital PR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen27"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen27"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen27"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-8dp"
+                        android:text="Eny Ratnasari, S.I.Kom., M.I.Kom"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen27"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Digital PR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/dosen28"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/dosen28"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/nama_dosen28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen28"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:text="R. Yunita Prima P, S.Sos, MC-GMComm"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama_dosen28"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Digital PR"
+                        android:textAlignment="center"
+                        android:textColor="?colorPrimaryVariant"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+<HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_back"
+                        app:tint="@color/abu_abu" />
+
+                    <TextView
+                        android:id="@+id/text_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_back"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Kembali ke Kuliah"
+                        android:textAlignment="center"
+                        android:textColor="@color/abu_abu" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_dosen"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/kuning">
+
+                    <ImageView
+                        android:id="@+id/icon_dosen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_dosen"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/text_dosen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_dosen"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Dosen"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_kurikulum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_kurikulum"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_kurikulum"
+                        app:tint="@color/kuning" />
+
+                    <TextView
+                        android:id="@+id/text_kurikulum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_kurikulum"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Kurikulum"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_hmj"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_hmj"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_jurnal"
+                        app:tint="@color/kuning" />
+
+                    <TextView
+                        android:id="@+id/text_hmj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_hmj"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Jurnal" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

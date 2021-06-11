@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:background="@color/white"
+    android:elevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:titleTextColor="?colorSecondary"
+    app:titleTextAppearance="@style/subMenuTitleStyle"
+    app:buttonGravity="center_vertical"/>
+
+<!--<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/toolbar_submenu"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="86dp"-->
+<!--    android:background="@color/white"-->
+<!--    android:elevation="4dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_submenutoolbar_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:fontFamily="@font/dm_sans_medium"-->
+<!--        android:text="toolbar title"-->
+<!--        android:textColor="?colorPrimaryVariant"-->
+<!--        android:textSize="22dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:src="@drawable/ic_baseline_arrow_back_24"-->
+<!--        android:onClick="onClick"/>-->
+
+<!--</androidx.appcompat.widget.Toolbar>-->

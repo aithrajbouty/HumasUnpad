@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/kuning"
+    tools:context=".fragments.KuliahFragment">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/imageView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView4"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card_dosen"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            app:cardElevation="5dp"-->
+<!--            app:cardMaxElevation="5dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/icon_dosen1"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:src="@drawable/ic_dosen"-->
+<!--                    app:tint="@color/kuning" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_dosen1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/icon_dosen1"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:fontFamily="@font/palanquin_dark"-->
+<!--                    android:text="Dosen" />-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card_kurikulum"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            app:cardElevation="5dp"-->
+<!--            app:cardMaxElevation="5dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/icon_kurikulum1"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:src="@drawable/ic_kurikulum"-->
+<!--                    app:tint="@color/kuning" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_kurikulum1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/icon_kurikulum1"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:fontFamily="@font/palanquin_dark"-->
+<!--                    android:text="Kurikulum" />-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/card_fasilitas"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            app:cardElevation="5dp"-->
+<!--            app:cardMaxElevation="5dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/icon_fasilitas"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:src="@drawable/ic_fasilitas"-->
+<!--                    app:tint="@color/kuning" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_fasilitas"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/icon_fasilitas"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:fontFamily="@font/palanquin_dark"-->
+<!--                    android:text="Fasilitas" />-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_dosen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="15dp">
+
+                <ImageView
+                    android:id="@+id/icon_dosen"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_dosen"
+                    app:tint="@color/kuning" />
+
+                <TextView
+                    android:id="@+id/text_dosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/icon_dosen"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/palanquin_dark"
+                    android:text="Dosen"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_kurikulum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="15dp">
+
+                <ImageView
+                    android:id="@+id/icon_kurikulum"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_kurikulum"
+                    app:tint="@color/kuning" />
+
+                <TextView
+                    android:id="@+id/text_kurikulum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/icon_kurikulum"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/palanquin_dark"
+                    android:text="Kurikulum"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_jurnal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="10dp">
+
+                <ImageView
+                    android:id="@+id/icon_jurnal"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_jurnal"
+                    app:tint="@color/kuning" />
+
+                <TextView
+                    android:id="@+id/text_jurnal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/icon_jurnal"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/palanquin_dark"
+                    android:text="Jurnal"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="0dp">
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

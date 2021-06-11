@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="titleStyle" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:font">@font/dm_sans_medium</item>
+    </style>
+
+    <style name="subtitleStyle" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">13dp</item>
+        <item name="android:font">@font/average_sans</item>
+    </style>
+
+    <style name="subMenuTitleStyle" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20dp</item>
+        <item name="android:font">@font/dm_sans_medium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:elevation="4dp"
+    app:titleTextColor="?colorPrimary"
+    app:titleMargin="20dp"
+    app:titleMarginStart="25dp"
+    app:titleTextAppearance="@style/titleStyle"
+    app:subtitleTextColor="?colorPrimaryVariant"
+    app:subtitleTextAppearance="@style/subtitleStyle">
+
+</androidx.appcompat.widget.Toolbar>

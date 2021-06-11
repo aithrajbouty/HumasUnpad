@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TujuanActivity">
+
+    <include
+        android:id="@+id/toolbar_tujuan"
+        layout="@layout/submenutoolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_tujuan"
+        android:layout_above="@id/horizontalScrollView">
+
+        <RelativeLayout
+            android:id="@+id/konten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="25dp"
+            android:paddingHorizontal="50dp">
+
+            <TextView
+                android:id="@+id/subtitle_sikap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="SIKAP"
+                android:textSize="17dp"
+                android:textColor="@color/kuning"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textview_sikap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/subtitle_sikap"
+                android:fontFamily="@font/mukta_mahee"
+                android:text="@string/string_tujuan_sikap"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:id="@+id/subtitle_pengetahuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_sikap"
+                android:fontFamily="@font/andika"
+                android:text="PENGUASAAN PENGETAHUAN"
+                android:textSize="17dp"
+                android:textColor="@color/kuning"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textview_pengetahuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/subtitle_pengetahuan"
+                android:fontFamily="@font/mukta_mahee"
+                android:text="@string/string_tujuan_pengetahuan"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:id="@+id/subtitle_keterampilankhusus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_pengetahuan"
+                android:fontFamily="@font/andika"
+                android:text="KETERAMPILAN KHUSUS"
+                android:textSize="17dp"
+                android:textColor="@color/kuning"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textview_keterampilankhusus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/subtitle_keterampilankhusus"
+                android:fontFamily="@font/mukta_mahee"
+                android:text="@string/string_tujuan_khusus"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:id="@+id/subtitle_keterampilanumum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_keterampilankhusus"
+                android:fontFamily="@font/andika"
+                android:text="KETERAMPILAN UMUM"
+                android:textSize="17dp"
+                android:textColor="@color/kuning"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textview_keterampilanumum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/subtitle_keterampilanumum"
+                android:fontFamily="@font/mukta_mahee"
+                android:text="@string/string_tujuan_umum"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_back"
+                        app:tint="@color/abu_abu" />
+
+                    <TextView
+                        android:id="@+id/text_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_back"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Kembali ke Profil"
+                        android:textAlignment="center"
+                        android:textColor="@color/abu_abu" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_visimisi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_visimisi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_visimisi"
+                        app:tint="@color/kuning" />
+
+                    <TextView
+                        android:id="@+id/text_vismis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_visimisi"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Visi Misi"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_tujuan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/kuning">
+
+                    <ImageView
+                        android:id="@+id/icon_tujuan"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_tujuan"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/text_tujuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_tujuan"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Tujuan"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_sejarah"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_sejarah"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_sejarah"
+                        app:tint="@color/kuning" />
+
+                    <TextView
+                        android:id="@+id/text_sejarah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_sejarah"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Sejarah" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_organisasi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/icon_organisasi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_organisasi"
+                        app:tint="@color/kuning" />
+
+                    <TextView
+                        android:id="@+id/text_organisasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_organisasi"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:lineSpacingExtra="-10sp"
+                        android:text="Struktur Organisasi"
+                        android:textAlignment="center"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
